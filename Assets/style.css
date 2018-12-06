@@ -1,0 +1,44 @@
+#searchHolder {
+    align-content: left;
+}
+
+#searchHolder {
+    margin: auto;
+    max-width: 60%;
+}
+
+.searchButton {
+   margin: 10px; 
+}
+
+#searchHolder {
+    align-content: right;
+}
+
+.gifs {
+    width: 300px;
+    height: 300px;
+    border: black 2px solid;
+}
+
+.imageBox {
+    width: 350px;
+    height: 350px;
+}
+
+#header {
+    background-image: url("mario-backgroup.png");
+    background-position: bottom;
+    color: firebrick;
+    
+}
+
+body {
+    background-color:lightslategray;
+    font-family: myFirstFont;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(SuperMario256.ttf)
+}

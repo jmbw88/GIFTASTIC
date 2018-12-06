@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="Assets/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Assets/style.css">
+    <title>GIFTASTIC</title>
+</head>
+<body>
+    <div class="container-fluid">
+            <div class="jumbotron jumbotron-fluid" id="header">
+                    <div class="container">
+                      <h1 class="display-4">Gaming GIF Generator!</h1>
+                      <p class="lead">Search for your favorite gaming GIF by entering it in the search box below.</p>
+                    </div>
+                  </div>
+        <div class="row align-items-start"> 
+        <div class="col" id="buttonRow"></div>
+        <div class="col" id='searchHolder'>
+                <form id='search-form'>
+                    <label>Search your favorite game!</label>
+                    <input type='text' id='gifSearch'>
+                    <input id='addGame' type='submit' value='Submit'>
+                </form>
+            </div>
+        <div class="container-fluid">
+            <div class="row p-2" id='gifHolder'></div>
+        </div> 
+        </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Javascript/giftastic.js"></script>
+    
+</body>
+</html>
