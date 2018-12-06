@@ -27,7 +27,7 @@ var games = [
 // API Call
 
         var query = $(this).attr("data-search");
-        var offset= Math.floor((Math.random() * 30) + 1);
+        var offset= Math.floor((Math.random() * 100) + 1);
 
 // Query matches the search the user puts in, and the random offset number means each search return is different.         
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=$" + query + "&api_key=svUujerrDXiAalWGSdDcJfhc5HxiVGlc&limit=10&offset=" + offset
